@@ -1,0 +1,127 @@
+/* Reset e fonte */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h5 {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #e91e63;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 60px 20px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #e91e63;
+  border: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-light:hover {
+  background-color: #e91e63;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Carrossel */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Cards de produtos */
+.product-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card .card-title {
+  font-weight: bold;
+}
+
+.product-card .price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e91e63;
+}
+
+/* Footer */
+footer {
+  background: #1c1c1c;
+}
+
+footer h5 {
+  font-weight: bold;
+  color: #fff;
+}
+
+footer p,
+footer a {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer .border-top {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
